@@ -32,6 +32,9 @@
         },
         {
             "m_Id": "89b7159666bf4f2480d5b9449af05196"
+        },
+        {
+            "m_Id": "9fb5369dfb014046991e3860cdd2cbbb"
         }
     ],
     "m_Keywords": [],
@@ -39,6 +42,9 @@
     "m_CategoryData": [
         {
             "m_Id": "63b4a62ae8b64c0381d73acba2dec4a3"
+        },
+        {
+            "m_Id": "18395c4169eb4ba2a63143073a749849"
         }
     ],
     "m_Nodes": [
@@ -155,6 +161,9 @@
         },
         {
             "m_Id": "52eef864cb5c4dc6a79dbc68086f39e8"
+        },
+        {
+            "m_Id": "dd1a205385f745208b6465d0b0d45bfd"
         }
     ],
     "m_GroupDatas": [
@@ -596,6 +605,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "dd1a205385f745208b6465d0b0d45bfd"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "b2f8d87987bc4015b833784dc6772b6d"
+                },
+                "m_SlotId": 8
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "e9066678904e4fd590e41227b2822728"
                 },
                 "m_SlotId": 2
@@ -853,6 +876,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "0d20b1e0f5a34eb59d41ed38b4780b9a",
+    "m_Id": 8,
+    "m_DisplayName": "ToonRampTintingBrightness",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "ToonRampTintingBrightness",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
     "m_ObjectId": "0f32c15c5a7445fea717b9fba77cecbf",
     "m_Id": 0,
@@ -1100,6 +1138,27 @@
     "m_Property": {
         "m_Id": "6c0e0e690efb42898861088b3c6fdd54"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "18395c4169eb4ba2a63143073a749849",
+    "m_Name": "Main Texture",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "c9d567bc9458429bb81bf132ec24ada0"
+        },
+        {
+            "m_Id": "6c0e0e690efb42898861088b3c6fdd54"
+        },
+        {
+            "m_Id": "b6b1b5abf94b4b5ba3d73daa3e014d14"
+        },
+        {
+            "m_Id": "89b7159666bf4f2480d5b9449af05196"
+        }
+    ]
 }
 
 {
@@ -1779,7 +1838,7 @@
     "m_Title": "ToonLighting",
     "m_Position": {
         "x": -2397.5,
-        "y": -478.49993896484377
+        "y": -478.5
     }
 }
 
@@ -2416,12 +2475,6 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "c9d567bc9458429bb81bf132ec24ada0"
-        },
-        {
-            "m_Id": "6c0e0e690efb42898861088b3c6fdd54"
-        },
-        {
             "m_Id": "daa0ce5729df461ca1983f0029d99215"
         },
         {
@@ -2440,10 +2493,7 @@
             "m_Id": "db83408a8816492f9a1ac68707edcdb9"
         },
         {
-            "m_Id": "b6b1b5abf94b4b5ba3d73daa3e014d14"
-        },
-        {
-            "m_Id": "89b7159666bf4f2480d5b9449af05196"
+            "m_Id": "9fb5369dfb014046991e3860cdd2cbbb"
         }
     ]
 }
@@ -2586,7 +2636,7 @@
     "m_Title": "Mask",
     "m_Position": {
         "x": 135.5,
-        "y": -949.4998779296875
+        "y": -949.5
     }
 }
 
@@ -3225,7 +3275,7 @@
     "m_ObjectId": "9289c7fbccec46adb299de89becd3136",
     "m_Title": "Texture",
     "m_Position": {
-        "x": -1852.4998779296875,
+        "x": -1852.5,
         "y": -1554.5
     }
 }
@@ -3403,6 +3453,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "9fb5369dfb014046991e3860cdd2cbbb",
+    "m_Guid": {
+        "m_GuidSerialized": "7b202b8e-3e9f-4522-b108-755c4bf4c3d6"
+    },
+    "m_Name": "ToonRampTintingBrightness",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "ToonRampTintingBrightness",
+    "m_DefaultReferenceName": "_ToonRampTintingBrightness",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 1.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a1df9650a4a141038543aaf9a6ad0623",
@@ -3576,6 +3654,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ad9abf855e2140ec98abc5b064880bd9",
+    "m_Id": 0,
+    "m_DisplayName": "ToonRampTintingBrightness",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "af9127fd42e94b65b60f5ff0e9c08b16",
     "m_Group": {
@@ -3719,6 +3812,9 @@
         },
         {
             "m_Id": "d72c307c9d9740c39e59683036b2f801"
+        },
+        {
+            "m_Id": "0d20b1e0f5a34eb59d41ed38b4780b9a"
         },
         {
             "m_Id": "59129cb07cf24b6fae31e0c0cd971d08"
@@ -4548,6 +4644,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "dd1a205385f745208b6465d0b0d45bfd",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2594.5,
+            "y": 31.5,
+            "width": 222.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "ad9abf855e2140ec98abc5b064880bd9"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "9fb5369dfb014046991e3860cdd2cbbb"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
     "m_ObjectId": "df5ad0fc6f654624a558cd2e1c8e8579",
     "m_Id": 0,
@@ -4711,7 +4843,7 @@
     "m_ObjectId": "ea79bb2fb03845db8aeb1b2c7547ddde",
     "m_Title": "RimLight",
     "m_Position": {
-        "x": -1717.5001220703125,
+        "x": -1717.5,
         "y": -1009.0
     }
 }
